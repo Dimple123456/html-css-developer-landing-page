@@ -1,0 +1,279 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   font-family: "Roboto", sans-serif;
+   /* line-height: 1.3em;
+   font-weight: 300; */
+
+}
+
+.pimg1{
+    background-image: url(Images/nicole-wolf-CZ9AjMGKIFI-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    /* opacity: 0.6; */
+    
+}
+
+.ptext{
+   
+    width: 900px;
+    margin: 0 auto;
+    padding-top: 100px;
+    color: white;
+}
+
+.text{
+    font-size: 64px;
+}
+
+.text2{
+    min-height: 200px;
+    background-color: black;
+    color: white;
+    letter-spacing: 0.5em;
+    text-align: center;
+    padding-top: 50px;
+    font-size: 40px;
+}
+
+.two{
+    font-size: 70px;
+}
+
+.three{
+    /* width: 100%; */
+    /* min-height: 500px ; */
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(auto-fit,minmax(320px,1fr));
+    max-width: 1100px;
+    margin: 50px auto;
+    /* justify-content: center; */
+    /* display: flex; */
+    /* justify-content: center; */
+    /* justify-content: space-around; */
+
+    
+   
+}
+
+.one1{
+    /* margin-top: 50px; */
+    max-width: 320px;
+    height: 400px;
+    border: 1px solid transparent;
+    box-shadow: 2px 3px 4px #ccc;
+    /* margin-left: 60px; */
+    border-radius: 10px;
+    transition: 0.2s ease-in-out;
+
+   
+
+}
+
+.grid_item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.one1:hover{
+   transform: scale(1.04);
+   box-shadow: 3px 4px 5px #535151;
+   transition: 0.2s ease-in-out;
+}
+.two2:hover{
+    transform: scale(1.04);
+    box-shadow: 3px 4px 5px #535151;
+    transition: 0.2s ease-in-out;
+}
+.three3:hover{
+    transform:scale(1.04);
+    box-shadow: 3px 4px 5px #535151;
+    transition: 0.2s ease-in-out;
+}
+
+.two2{
+    /* margin-top: 50px; */
+    max-width: 320px;
+    height: 400px;
+    border: 1px solid transparent;
+    box-shadow: 2px 3px 4px #ccc;
+    border-radius: 10px;
+    transition: 0.2s ease-in-out;
+
+
+}
+
+.three3{
+    /* margin-top: 50px; */
+    max-width: 320px;
+    height: 400px;
+    border: 1px solid transparent;
+    box-shadow: 2px 3px 4px #ccc;
+    border-radius: 10px;
+    transition: 0.2s ease-in-out;
+
+
+}
+
+.img1{
+    background-image: url(Images/caspar-camille-rubin-0qvBNep1Y04-unsplash.jpg);
+    border-radius: 10px;
+    min-height: 180px;
+    background-position: center;
+    background-size: cover;
+}
+
+
+.img2{
+    background-image: url(Images/domenico-loia-EhTcC9sYXsw-unsplash.jpg);
+    border-radius: 10px;
+    min-height: 180px;
+    background-position: center;
+    background-size: cover;
+}
+
+.img3{
+    background-image: url(Images/alvaro-reyes-zvmZiw3vdsQ-unsplash.jpg);
+    border-radius: 10px;
+    min-height: 180px;
+    background-position: center;
+    background-size: cover;
+}
+
+.ptext1{
+    padding: 20px;
+}
+
+.p1,.p2{
+    padding-left: 20px;
+   
+}
+.p2{
+    padding-top: 10px;
+}
+
+.contact{
+    /* width: 50%; */
+    min-height: 300px;
+    background-color: rgb(38, 61, 6);
+}
+
+.about{
+    /* width: 50%; */
+    min-height: 300px;
+    background-color: rgb(91, 4, 4);
+}
+
+.four{
+    display: flex;
+}
+
+.contact,.about{
+    min-height: 300px;
+    padding: 32px;
+    color: white;
+}
+
+.about p,
+.contact p {
+    margin-bottom: 20px;
+}
+
+.about h2,
+.contact h2{
+    font-size: 60px;
+    font-weight: 300;
+
+}
+/* .context{
+    color: white;
+    font-size: 50px;
+    padding: 40px;
+   letter-spacing: 2px;
+} */
+
+/* .aboutme{
+    color: white;
+    font-size: 50px;
+    padding: 40px;
+    letter-spacing: 2px;
+}
+
+.conp{
+    color: white;
+    letter-spacing: 2px;
+    padding-left: 40px;
+}
+
+.email{
+    color: white;
+    padding-left: 40px;
+    padding-top: 20px;
+} */
+
+footer{
+    /* width: 100%; */
+    min-height: 100px;
+    background-color: black;
+    color: white;
+    letter-spacing: 4px;
+    /* text-align: center; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+}
+
+@media(max-width:786px){
+    .pimg1{
+        min-height: 50vh;
+    }
+
+    .ptext{
+        padding: 10px 0;
+        /* text-align: center;
+        margin: 0 auto; */
+
+    }
+
+    .text{
+        font-size: 32px;
+    }
+
+    .section1,.text2{
+        font-size: 24px;
+
+    }
+
+    .section1,.text2 , span{
+        font-weight: 400;
+        font-size: 32px;
+    }
+
+    .four{
+        /* display: flex; */
+        flex-direction: column ;
+    }
+
+    footer{
+        font-size: 20px;
+    }
+
+    h1{
+        font-size: 32px;
+    }
+
+    .about h2,
+    .contact h2{
+        font-size: 32px;
+    }
+}
